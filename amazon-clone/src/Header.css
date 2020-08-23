@@ -1,11 +1,8 @@
 .header {
-    background-color: #133333;
+    background-color: #131921;
 }
 
 .header__logo {
     width: 100px;
-}
-
-* {
-    background: #133333;
+    margin: 18px;
 }
