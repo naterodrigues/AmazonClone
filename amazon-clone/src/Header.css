@@ -2,6 +2,9 @@
     background-color: #131921;
     display: flex;
     align-items: center;
+    position: sticky; /* Keeps header nav bar at the top */
+    top: 0;
+    z-index: 100; /* Z-Index takes priority, consider it as layers. I want nothing to be above this. */
 }
 
 .header__logo {
@@ -30,4 +33,43 @@
     background-color: #cd9042;
     padding: 5px;
     height: 22px !important;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-evenly; /* As the web page expands, each gets spaced out evenly */
+
+}
+
+.header__link {
+    color: white;
+    text-decoration: none;
+}
+
+.header__option {
+    display: flex;
+    flex-direction: column; /* Breaks span tags into their own lines */
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.header__optionLineOne {
+    font-size: 10px;
+}
+
+.header__optionLineTwo {
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.header__optionBasket {
+    display: flex;
+    align-items: center;
+
+}
+
+.header__basketCount {
+    margin-left: 10px;
+    margin-right: 10px;
 }
