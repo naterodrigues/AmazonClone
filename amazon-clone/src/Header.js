@@ -9,7 +9,8 @@ import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 
 function Header() {
     return (
-        <nav className="header">
+       
+       <nav className="header">
 
             {/* logo on the left -> img tag */}
             <Link to="/">
