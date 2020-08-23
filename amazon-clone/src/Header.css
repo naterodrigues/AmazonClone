@@ -1,0 +1,11 @@
+.header {
+    background-color: #133333;
+}
+
+.header__logo {
+    width: 100px;
+}
+
+* {
+    background: #133333;
+}
